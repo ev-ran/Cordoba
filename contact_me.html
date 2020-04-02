@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Courgette|Indie+Flower|Liu+Jian+Mao+Cao&display=swap');
+
+        body {
+            background-image:
+                linear-gradient(rgba(256, 256, 256, 0.93), rgba(256, 256, 256, 0.93)),
+                url(https://st4.depositphotos.com/9988984/23833/i/1600/depositphotos_238332906-stock-photo-detailed-intricate-geometric-patterns-islamic.jpg);
+
+        }
+
+        input {
+            padding: 2px;
+            margin: 2px;
+        }
+
+        h2 {
+            color: rgb(235, 85, 16);
+            margin: 10px 150px;
+            text-align: center;
+        }
+
+        p,
+        h2,
+        label {
+            font-family: 'Courgette', sans-serif;
+            text-align: center;
+        }
+
+        form {
+            margin: 0 auto;
+            width: 400px;
+            padding: 1em;
+            border: 1px solid #A52A2A;
+            border-radius: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>
+        Please leave your information and comments:
+    </h2> <br>
+    <p>My name is Evgeniya Rangaeva</p>
+    <p>Phone-number: 317-500-1916</p>
+    <p>e-mail: <a href="mailto:janerra32@gmail.com"> janerra32@gmail.com</a></p>
+    <form>
+
+        <fieldset>
+
+            <legend>Your information</legend>
+            <label for="fname">First name</label> <br>
+            <input type="text" id="fname" name="fname" autofocus><br>
+            <label for="sname">Surname</label><br>
+            <input type="text" id="sname" name="sname"><br>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="phone">Phone number</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="xxx-xxx xxxx"><br>
+            <label for="comment">Your comments</label><br>
+            <textarea name="comments" id="comment" cols="50" rows="15"></textarea>
+
+        </fieldset>
+
+        <input type="submit" style="margin: 10px; padding: 3px; border: 1px solid ; border-radius: 3px;">
+
+        <a href="index.html">Return</a>
+        
+    </form>
+
+</body>
+
+</html>
